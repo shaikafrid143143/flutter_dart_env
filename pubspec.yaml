@@ -1,0 +1,21 @@
+name: email_sender
+description: The "email_sender" package is a versatile tool designed to simplify email communication. With capabilities ranging from sending OTPs for verification to effortlessly dispatching test messages, general correspondence, and even managing large-scale company automation emails, it empowers users to streamline their email-related tasks efficiently and effectively..
+version: 1.1.3
+homepage: https://github.com/afriddev/pythonemailapi
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  requests: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
