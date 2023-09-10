@@ -10,11 +10,11 @@ void main() async{
     //Initialize emailSender 
     emailSender emailsender = EmailSender();
     //Enter your email in send method
-    var response = await emailsender.send("youremail@gmail.com");
+    var response = await emailsender.send("toemail@gmail.com");
     print(response);
 }
 ``` 
-## -- methods
+##  methods
 
 ```dart
     emailSender emailsender = EmailSender();
@@ -41,10 +41,10 @@ void main() async{
 ``` 
 
 
-## -- help
+## help
 ```dart
     emailSender emailsender = email_sender();
-    var response = await emailsender.help();
+    emailsender.help();
 
 ``` 
 ## Authors
