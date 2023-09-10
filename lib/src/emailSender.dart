@@ -1,4 +1,3 @@
-// ignore_for_file: unused_local_variable, unused_element
 /*
 ------------------------------------------------------------
 |               author  : shaik afrid                      |
@@ -43,7 +42,8 @@ class emailSender {
 
   //check errorCode is present in errorCode section start
   checkErrorCode(message) {
-    for (int i = 0; i <= errorCodes.length; i++) {
+    int i = 0;
+    while(i < errorCodes.length){
       if (message == errorCodes[i]) {
         return {"isThere": true, "errorCode": errorCodes[i]};
       } else {
@@ -132,7 +132,7 @@ class emailSender {
       if (checkEmail(toEmail)) {
         var response = await Requests.post(url, json: {
       "toEmail": toEmail,
-      "body": "Your Verification Code Is " + otp.toString()
+      "body": "Your Verification Code IS $otp"
     });
         var checkErrorCodeIsPresentOrNot =
             checkErrorCode(response.json()["message"])["isThere"];
@@ -162,7 +162,6 @@ class emailSender {
 
   //sendOtp section end
   //send Custom Email with parameters section start
-  // ignore: dead_code
   sendMessage(String toEmail, String title, String subject, String body) async {
     try{
       if (await checkServer()) {
@@ -247,4 +246,8 @@ class emailSender {
   //check email is valid or not section end
 }
 
-
+void main()async{
+  var  a= emailSender();
+  var b = await a.sendOtp("afridayan01@gmail.com",12345);
+  print(b);
+}
