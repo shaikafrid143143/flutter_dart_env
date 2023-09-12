@@ -16,8 +16,8 @@
 -------------------------------------------------------------
  */
 library email_sender;
-export 'src/emailSender.dart';
-class email_sender{
+export 'src/emailsender_core.dart';
+class Email{
   //emailSender Help Section Start
   void help(){
   var help = """  
@@ -64,8 +64,4 @@ class email_sender{
   //emailSender Help Section End
   
 
-}
-
-void main(){
-  email_sender().help();
 }

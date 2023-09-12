@@ -8,7 +8,7 @@ Email Sender simplifies email integration in Flutter, enabling users to send ema
 ```dart
 void main() async{
     //Initialize emailSender 
-    emailSender emailsender = EmailSender();
+    EmailSender emailsender = EmailSender();
     //Enter your email in send method
     var response = await emailsender.send("toemail@gmail.com");
     print(response);
@@ -16,20 +16,15 @@ void main() async{
 ``` 
 ##  methods
 
-```dart
-    emailSender emailsender = EmailSender();
-    var response = await emailsender.details();
-
-``` 
 
 ```dart
-    emailSender emailsender = EmailSender();
+    EmailSender emailsender = EmailSender();
     var response = await emailsender.sendOtp("toemail@gmail.com",123456);
 
 ``` 
 
 ```dart
-    emailSender emailsender = EmailSender();
+    EmailSender emailsender = EmailSender();
     var response = await emailsender.sendMessage("toemail@gmail.com","title","subject","body");
 
 ``` 

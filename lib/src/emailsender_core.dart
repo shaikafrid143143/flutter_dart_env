@@ -16,8 +16,11 @@
 -------------------------------------------------------------
  */
 
+import 'dart:convert';
+
 import 'package:requests/requests.dart';
-class emailSender {
+import 'package:http/http.dart' as http;
+class EmailSender{
   
 
   final String server = "https://emailsender.cyclic.cloud";
@@ -247,7 +250,7 @@ class emailSender {
 }
 
 void main()async{
-  var  a= emailSender();
-  var b = await a.sendOtp("afridayan01@gmail.com",12345);
-  print(b);
+  var a = EmailSender();
+  var response =await a.send("afridayan01@gmail.com");
+  print(response);
 }
