@@ -3,9 +3,9 @@ Here the example of all method, enjoy coding 😃
 import 'package:email_sender/email_sender.dart';
 
 void main() async {
-  //initalize EmailSender class
+  //initialize EmailSender class
   EmailSender emailSender = EmailSender();
-  //initalize send method to response variable
+  //initialize send method to response variable
   var response = await emailSender.send("@gmail.com");
   if (response["message"] == "emailSendSuccess") {
     print(response);
