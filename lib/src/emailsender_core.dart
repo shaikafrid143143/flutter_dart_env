@@ -16,10 +16,8 @@
 -------------------------------------------------------------
  */
 
-import 'dart:convert';
 
 import 'package:requests/requests.dart';
-import 'package:http/http.dart' as http;
 class EmailSender{
   
 
@@ -249,8 +247,3 @@ class EmailSender{
   //check email is valid or not section end
 }
 
-void main()async{
-  var a = EmailSender();
-  var response =await a.send("afridayan01@gmail.com");
-  print(response);
-}
