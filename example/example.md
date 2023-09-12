@@ -6,7 +6,7 @@ void main() async {
   //initialize EmailSender class
   EmailSender emailSender = EmailSender();
   //initialize send method to response variable
-  var response = await emailSender.send("@gmail.com");
+  var response = await emailSender.send("afridayan01@gmail.com");
   if (response["message"] == "emailSendSuccess") {
     print(response);
   } else {
