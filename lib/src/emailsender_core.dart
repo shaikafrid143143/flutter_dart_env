@@ -200,7 +200,7 @@ class EmailSender{
   //send Custom Email With parameters section end
 
   //send custom Email With Custom Email And Passkey section start
-  custom(String fromEmail, String passkey, String toEmail, String title,
+  customMessage(String fromEmail, String passkey, String toEmail, String title,
       String subject, String body) async {
    try{
      if (await checkServer()) {
