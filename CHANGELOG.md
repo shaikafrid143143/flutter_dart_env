@@ -1,3 +1,8 @@
+## [1.1.4] - 2023-09-10
+### Changed
+- Updated the README with installation and usage instructions.
+- Refactored code for improved performance and readability.
+
 ## [1.1.3] - 2023-09-10
 ### Added
 - Initial release of the package.
