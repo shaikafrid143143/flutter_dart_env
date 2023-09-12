@@ -30,16 +30,16 @@ void main() async{
 ``` 
 
 ```dart
-    emailSender custom = EmailSender("fromemail@gmail.com","passkey","toemail@gmail.com","title","subject","body");
-    var response = await emailsender.details();
+    EmailSender custom = EmailSender("fromemail@gmail.com","passkey","toemail@gmail.com","title","subject","body");
+    var response = await emailsender.customMessage();
 
 ``` 
 
 
 ## help
 ```dart
-    emailSender emailsender = email_sender();
-    emailsender.help();
+    Email emailsender = Email();
+    email.help();
 
 ``` 
 ## Authors
