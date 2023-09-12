@@ -27,27 +27,27 @@ void main() async{
 ``` 
 ####  methods
 
-⭐ **SendOtp Method**
+⭐ **SendOtp**
 ```dart
     EmailSender emailsender = EmailSender();
     var response = await emailsender.sendOtp("toemail@gmail.com",123456);
 
 ```
-⭐ **Sendmessage Method**
+⭐ **Sendmessage**
 
 ```dart
     EmailSender emailsender = EmailSender();
     var response = await emailsender.sendMessage("toemail@gmail.com","title","subject","body");
 
 ```
-⭐ **Custommessage Method**
+⭐ **Custommessage**
 
 ```dart
     EmailSender custom = EmailSender("fromemail@gmail.com","passkey","toemail@gmail.com","title","subject","body");
     var response = await emailsender.customMessage();
 
 ``` 
-⭐ **Help Method**
+⭐ **Help**
 
 ```dart
     Email emailsender = Email();
@@ -56,7 +56,7 @@ void main() async{
 ``` 
 #### Authors
 
-- [SHAIK AFRID](https://www.github.com/afriddev)
+- [AFRID SHAIK](https://www.github.com/afriddev)
 
 
 
