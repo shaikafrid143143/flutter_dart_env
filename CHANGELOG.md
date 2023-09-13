@@ -1,4 +1,4 @@
-## [1.1.4] - 2023-09-12
+## [1.1.4] - 2023-09-13
 ### Changed
 - Updated the README with installation and usage instructions.
 - Refactored code for improved performance and readability.
