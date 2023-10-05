@@ -1,3 +1,8 @@
+## [1.2.3] - 2023-10-05
+### Changed
+- removed bugs
+- improved quality of code
+
 ## [1.1.4] - 2023-09-13
 ### Changed
 - Updated the README with installation and usage instructions.
@@ -5,7 +10,7 @@
 - improved error handling methods
 - changed file and class names
 - improved quality of code
-- 
+
 ## [1.1.3] - 2023-09-10
 ### Added
 - Initial release of the package.

@@ -17,9 +17,11 @@
  */
 library email_sender;
 export 'src/emailsender_core.dart';
+///helpemail class
 class Email{
-  //emailSender Help Section Start
+  ///emailSender Help Section Start
   void help(){
+    ///help variable
   var help = """  
 
 ------------------------------------------------------------
